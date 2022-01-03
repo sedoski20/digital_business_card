@@ -89,11 +89,7 @@ img.selfie
     height: auto;
     margin-top: 10px;
     margin-left: 10%;
-
-    aspect-ratio: 1;
     border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% 20%;
     display: block;
 }
 
