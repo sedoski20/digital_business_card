@@ -1,13 +1,156 @@
 html
 
-img.selfie
+body
 {
-    width: 300px;
-    height: 300px; 
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: 50% 30%;
-    display: block;
+    padding-top: 1%;
+    min-height: 590px;
+    background-color: rgb(24,24,24);
+    background-image: linear-gradient(to bottom right, #005b96 , #252627);
+    background-repeat: no-repeat;
+}
+
+p
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover
+{
+    color: var(--highlight-color);
+}
+
+:root
+{
+    --highlight-color: #009AFF;
+}
+
+.card
+{
+    background-color: rgba(37, 38, 39, 0.7);
     margin-left: auto;
     margin-right: auto;
+    border-radius: 2vw;
+    width: 80%;
+    height: 40vw;
 }
+
+.left
+{
+    width: 45%;
+    padding-left: 5%;
+    padding-right: 7%;
+    float: left;
+    font-family: Nunito;
+}
+
+.right
+{
+    padding-top: 4%;
+}
+
+.main-text
+{
+    margin-top: 15%;
+    padding-bottom: 5%;
+    text-align: left;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color: white;
+}
+
+.highlight
+{
+    color: var(--highlight-color);
+    font-weight: bold;
+}
+
+.gray
+{
+    color: gray;
+    text-decoration: none;
+}
+
+.contact
+{
+    font-size: calc(8px + 1vw);
+    color: white;
+}
+
+img.selfie
+{
+    width: 35%;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 10%;
+
+    aspect-ratio: 1;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 20%;
+    display: block;
+}
+
+img.linkedin
+{
+    margin-top: 5%;
+    min-width: 30px;
+    width: 10%;
+    height: auto;
+    margin-right: 3%;
+    float: left;
+}
+
+.linkedin:hover
+{
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+img.github
+{
+    margin-top: 5%;
+    min-width: 30px;
+    width: 10%;
+    height: auto;
+}
+
+.github:hover
+{
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.button
+{
+    margin-top: 5%;
+    margin-right: 2%;
+    width: 45%;
+    float: left;
+    text-decoration: none;
+    font-size: 2vw;
+    min-height: 25px;
+    height: 3vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: gray;
+    background-color: transparent;
+    font-family: Nunito;
+}
+
+.button:hover
+{
+    border-color: var(--highlight-color);
+    color: var(--highlight-color);
+}
+
+
+
