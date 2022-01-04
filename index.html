@@ -3,55 +3,58 @@
 <head>
 	<link rel="stylesheet" href="./css/main.css">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet" >
-	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Marcelo Sedoski's Digital Card</title>
 </head>
 
 <body>
 	<div class="card">
-		<div class="left">
-			<div class="main-text">
-				<p>
-					Hi,<br>
-					I'm 
-					<span class="highlight">Marcelo Sedoski,</span><br>
-					Software Engineer.
-				</p>
+		<div class="row">
+			<img class="profile-mobile selfie" src="./img/sedoski.jpg" alt="selfie">
+	
+			<div class="col-6 left">
+				<div class="main-text">
+					<p>
+						Hi,<br>
+						I'm 
+						<span class="highlight">Marcelo Sedoski,</span><br>
+						Software Engineer.
+					</p>
+				</div>
+	
+				<hr>
+	
+				<div class="contact">
+					<a href="tel:+5541987029122">
+						<p><span class="gray">Phone:</span>	+55 41 98702-9122<br>
+					</a>
+	
+					<a href="mailto: sedoski_@hotmail.com">
+						<span class="gray">Email:</span> sedoski_@hotmail.com</p>
+					</a>	
+				</div>
+	
+				<div class="links-box">
+					<a href="https://www.linkedin.com/in/marcelo-luis-sedoski-junior-795012176/" target="_blank">
+						<img class="linkedin links" src="./img/linkedin.png" alt="">
+					</a>
+					
+					<a href="https://github.com/sedoski20" target="_blank">
+						<img class="github links" src="./img/github.png" alt="">
+					</a>
+				</div>
+	
+				<div class="buttons">
+					<form action="./user.vcf">	
+						<button class="button">DOWNLOAD</button>
+					</form>
+					
+					<form action="mailto: sedoski_@hotmail.com">
+						<button class="button contact-me">CONTACT ME</button>
+					</form>
+				</div>
 			</div>
-			<hr>
-			<div class="contact">
-				<a href="tel:+5541987029122">
-					<p><span class="gray">Phone:</span>	+55 41 98702-9122<br>
-				</a>
-
-				<a href="mailto: sedoski_@hotmail.com">
-					<span class="gray">Email:</span> sedoski_@hotmail.com</p>
-				</a>	
-			</div>
-
-			<div>
-				<a href="https://www.linkedin.com/in/marcelo-luis-sedoski-junior-795012176/" target="_blank">
-					<img class="linkedin" src="./img/linkedin.png" alt="">
-				</a>
-				
-				<a href="https://github.com/sedoski20" target="_blank">
-					<img class="github" src="./img/github.png" alt="">
-				</a>
-			</div>
-
-			<div>
-				<form action="./user.vcf">
-					<button class="button">DOWNLOAD</button>
-				</form>
-				
-				<form action="mailto: sedoski_@hotmail.com">
-					<button class="button">CONTACT ME</button>
-				</form>
-			</div>
-		</div>
-		
-		<div class="right">
-			<img class="selfie" src="./img/sedoski.jpg" alt="selfie">
+			<img class="profile-desktop selfie" src="./img/sedoski.jpg" alt="selfie">
 		</div>
 	</div>
 </body>	
