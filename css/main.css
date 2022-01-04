@@ -1,4 +1,8 @@
 html
+{
+    padding: 0px;
+    margin: 0px;
+}
 *
 {
     box-sizing: border-box;
@@ -63,14 +67,30 @@ a:hover
 
     .card
     {
+        max-width: 92vw;
+        margin: auto;
         padding: 5%;
-        margin: 3%; 
+    }
+    
+    .main-text
+    {
+        font-size: 26pt;
+    }
+
+    .contact
+    {
+        font-size: 12pt;
+    }
+
+    body
+    {
+        padding-top: 2vh;
     }
 }
 
 @media only screen and (min-width: 768px)
 {
-        /* For desktop: */
+    /* For desktop: */
     .col-1 {width: 8.33%;}
     .col-2 {width: 16.66%;}
     .col-3 {width: 25%;}
@@ -102,11 +122,25 @@ a:hover
 
     .card
     {
+        max-height: 80vh;
+        max-width: 70vw;
+        margin: auto;
         padding: 5%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 12%;
-        margin-right: 12%;
+    }
+
+    .main-text
+    {
+        font-size: 32pt;
+    }
+
+    .contact
+    {
+        font-size: 14pt;
+    }
+
+    body
+    {
+        padding-top: 10vh;
     }
 }
 
@@ -132,7 +166,6 @@ a:hover
     margin-top: 5%;
     padding-bottom: 5%;
     text-align: left;
-    font-size: 32pt;
     font-weight: bold;
     color: white;
 }   
@@ -152,7 +185,6 @@ a:hover
 .contact
 {
     margin-top: 15px;
-    font-size: 14pt;
     color: white;
     float: left;
 }
