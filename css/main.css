@@ -132,7 +132,7 @@ a:hover
     margin-top: 5%;
     padding-bottom: 5%;
     text-align: left;
-    font-size: 36pt;
+    font-size: 32pt;
     font-weight: bold;
     color: white;
 }   
@@ -152,7 +152,7 @@ a:hover
 .contact
 {
     margin-top: 15px;
-    font-size: 15pt;
+    font-size: 14pt;
     color: white;
     float: left;
 }
@@ -166,7 +166,7 @@ img.selfie
 
 img.linkedin
 {
-    margin-left: 5%;
+    margin-left: 3%;
 }
 
 .linkedin:hover
@@ -179,7 +179,7 @@ img.linkedin
 img.github
 {
     position: relative;
-    margin-left: 1%;
+    margin-left: 2px;
 }
 
 .github:hover
