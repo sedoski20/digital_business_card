@@ -42,6 +42,7 @@ a:hover
 
 
 @media only screen and (max-width: 768px) 
+                   and (orientation: portrait)
 {
     /* For mobile phones: */
     [class*="col-"] 
@@ -88,7 +89,7 @@ a:hover
     }
 }
 
-@media only screen and (min-width: 768px)
+@media only screen and (min-width: 768px), (orientation: landscape)
 {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -130,12 +131,12 @@ a:hover
 
     .main-text
     {
-        font-size: 32pt;
+        font-size: 3vw;
     }
 
     .contact
     {
-        font-size: 14pt;
+        font-size: 1.5vw;
     }
 
     body
