@@ -41,8 +41,7 @@ a:hover
 }
 
 
-@media only screen and (max-width: 768px) 
-                   and (orientation: portrait)
+@media (orientation: portrait)
 {
     /* For mobile phones: */
     [class*="col-"] 
@@ -89,7 +88,7 @@ a:hover
     }
 }
 
-@media only screen and (min-width: 768px), (orientation: landscape)
+@media (orientation: landscape)
 {
     /* For desktop: */
     .col-1 {width: 8.33%;}
@@ -234,12 +233,14 @@ img.github
     margin-top: 10px;
     float: left;
     font-family: Nunito;
+    font-size: 12px;
     background-color: transparent;
     border: 1px solid gray;
     border-radius: 10px;
     color: gray;
     width: 49%;
-    height: 5vh;
+    height: 4vw;
+    min-height: 25px;
 }
 
 .button:hover
