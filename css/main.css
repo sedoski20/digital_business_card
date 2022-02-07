@@ -79,12 +79,18 @@ a:hover
 
     .contact
     {
-        font-size: 12pt;
+        font-size: 20pt;
     }
 
     body
     {
         padding-top: 2vh;
+    }
+
+    .button
+    {
+        width: 35vw;
+        height: 9.5vw;
     }
 }
 
@@ -135,12 +141,18 @@ a:hover
 
     .contact
     {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 
     body
     {
         padding-top: 10vh;
+    }
+
+    .button
+    {
+        width: 15vw;
+        height: 3.5vw;
     }
 }
 
@@ -186,7 +198,7 @@ a:hover
 {
     margin-top: 15px;
     color: white;
-    float: left;
+
 }
 
 img.selfie
@@ -198,7 +210,10 @@ img.selfie
 
 img.linkedin
 {
-    margin-left: 3%;
+    position: relative;
+    background-color: #0077B7;
+    border: 1px solid #0077B7;
+    border-radius: 5px;
 }
 
 .linkedin:hover
@@ -211,36 +226,41 @@ img.linkedin
 img.github
 {
     position: relative;
-    margin-left: 2px;
+    margin-left: 5px;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    
 }
 
 .github:hover
 {
     box-sizing: border-box;
     border: 1px solid white;
-    border-radius: 50%;
+    border-radius: 5px;
+}
+
+img.whatsapp
+{
+    position: relative;
+    margin-left: 5px;
+    background-image: linear-gradient(to top, #0B8E45 , #30A448);
+    border: 0.1px solid #30A448;
+    border-radius: 5px;
+}
+
+.whatsapp:hover
+{
+    box-sizing: border-box;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .links
 {
     margin-top: 16px;
     width: 12%;
-    padding: 1px;
-}
-
-.button
-{
-    margin-top: 10px;
     float: left;
-    font-family: Nunito;
-    font-size: 12px;
-    background-color: transparent;
-    border: 1px solid gray;
-    border-radius: 10px;
-    color: gray;
-    width: 49%;
-    height: 4vw;
-    min-height: 25px;
 }
 
 .button:hover
@@ -250,10 +270,18 @@ img.github
     cursor: pointer;
 }
 
-.contact-me
+.button
 {
-    margin-left: 1%;
+    margin-top: 18px;
+    margin-left: 10px;
+    font-family: Nunito;
+    font-size: 14px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: gray;
 }
+
 
 
 
